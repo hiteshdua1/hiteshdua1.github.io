@@ -37,7 +37,46 @@ Let's walk through the example of adding `5` and `3` using their binary represen
 
 ### Walkthrough with Binary Representations:
 
-...[as in your provided text]
+1. **Example: `getSum(5, 3)`**
+
+   **Initial values:**
+   - `a` = `5` = `101` (in binary)
+   - `b` = `3` = `011` (in binary)
+
+   **First Iteration:**
+   - `a^b` = `5^3` = `6` = `110` (in binary)
+   - `(a&b)<<1` = `(5&3)<<1` = `2` = `010` (in binary when shifted left by 1)
+   
+   **Recursive call with `getSum(6, 2)`**
+
+   **New values:**
+   - `a` = `6` = `110` (in binary)
+   - `b` = `2` = `010` (in binary)
+
+   **Second Iteration:**
+   - `a^b` = `6^2` = `4` = `100` (in binary)
+   - `(a&b)<<1` = `(6&2)<<1` = `4` = `100` (in binary when shifted left by 1)
+
+   **Recursive call with `getSum(4, 4)`**
+
+   **New values:**
+   - `a` = `4` = `100` (in binary)
+   - `b` = `4` = `100` (in binary)
+
+   **Third Iteration:**
+   - `a^b` = `4^4` = `0` = `000` (in binary)
+   - `(a&b)<<1` = `(4&4)<<1` = `8` = `1000` (in binary when shifted left by 1)
+
+   **Recursive call with `getSum(0, 8)`**
+
+   **New values:**
+   - `a` = `0` = `000` (in binary)
+   - `b` = `8` = `1000` (in binary)
+
+   Since `b` is `0` in decimal (and `000` in binary), return `a` which is `8` in decimal and `1000` in binary.
+
+   **Final result:** `8` = `1000` (in binary)
+
 
 ### **Code Implementation**
 
