@@ -3,6 +3,7 @@
 ### **Problem Statement**
 
 Given a number `n`, list all its factors. The factors of a number include all positive integers that can divide the given number without leaving a remainder.
+https://leetcode.com/problems/the-kth-factor-of-n/
 
 ### **Understanding the Problem**
 
