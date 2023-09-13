@@ -45,7 +45,7 @@ Let's walk through the example of finding factors for the number `28`.
 
 ### **Code Implementation**
 
-``` javascript
+```javascript
 function getFactors(num) {
     let factors = [];
 
@@ -62,3 +62,4 @@ function getFactors(num) {
 }
 
 console.log(getFactors(28));  // [1, 2, 4, 7, 14, 28]
+```
