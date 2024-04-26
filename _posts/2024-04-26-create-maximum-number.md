@@ -2,7 +2,6 @@
 
 ## Problem Statement
 Given two integer arrays `nums1` and `nums2` representing the digits of two numbers and an integer `k`, create the maximum number of length `k <= m + n` from digits of these two numbers while preserving the relative order of the digits from the same array. https://leetcode.com/problems/create-maximum-number/
-https://leetcode.com/problems/create-maximum-number
 
 ## Understanding the Problem
 The problem is to merge two arrays into the largest possible number of length `k` using digits from both, while maintaining the order of digits as they appear in their respective arrays. A direct approach might attempt to combine the arrays in every possible way and check which combination yields the largest number, but this is inefficient for larger arrays.
