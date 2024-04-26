@@ -1,3 +1,5 @@
+# Create Maximum Number
+
 ## Problem Statement
 Given two integer arrays `nums1` and `nums2` representing the digits of two numbers and an integer `k`, create the maximum number of length `k <= m + n` from digits of these two numbers while preserving the relative order of the digits from the same array. https://leetcode.com/problems/create-maximum-number/
 https://leetcode.com/problems/create-maximum-number
