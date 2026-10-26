@@ -1,4 +1,4 @@
-ELI5 · explained in picturesarXiv 1706.03762 · NIPS 2017
+Explained in picturesarXiv 1706.03762 · NIPS 2017
 
 # How AI learned to read a whole sentence *at once*
 
